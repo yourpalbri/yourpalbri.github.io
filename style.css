@@ -53,6 +53,7 @@ img {
 }
 
 
+
 .backgroundContainer {
 	background: linear-gradient(#eeeeee, #b094d7);
 }
@@ -64,6 +65,8 @@ img {
 	padding-bottom: 130px;
 }
 
+
+
 #projectGrid {
 	margin-left: 150px;
 	margin-right: 150px;
@@ -74,12 +77,48 @@ img {
 	flex-flow: row wrap;
 }
 
-.projectImg {
+.projectLink {
 	flex: auto;
 	margin: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
 		0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .5s ease;
+    backface-visibility: hidden;
+    background-color: #562b42;
 }
+
+.textOverlay {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: Rubik, serif;
+  font-size: 22px;
+  color: #eeeeee;
+}
+
+#subTextOverlay {
+	font-family: Libre Baskerville;
+	font-style: italic;
+	font-size: 12px;
+}
+
+.projectLink:hover { 
+	transform: scale(1.05); 
+}
+
+.projectLink:hover .projectImg { 
+	opacity: 0.1; 
+}
+
+.projectLink:hover .textOverlay { 
+	opacity: 1;
+}
+
+
 
 .footer {
 	position: fixed;
@@ -87,6 +126,7 @@ img {
 	bottom: 0;
     width: 100%;
     padding: 4px;
+    padding-left: 0;
     background-color: #eeeeee;
     color: #562b42;
     font-family: Libre Baskerville, serif;
