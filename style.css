@@ -1,3 +1,113 @@
-#boobies {
-	color: "purple";
+@font-face { font-family: Rubik; src: url('Rubik-Medium.ttf'); } 
+
+::selection {
+  color: #eeeeee;
+  background: #562b42;
+} 
+
+body {
+	margin: 0;
+	margin-top: 0;
+	background-color: #eeeeee;
+}
+
+h1 {
+	font-family: Rubik, sans-serif;
+	font-size: 55px;
+	color: #562b42;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+h2 {
+	font-family: Libre Baskerville, serif;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.mainNav {
+	font-family: Rubik;
+	font-size: 18px;
+	color: #b094d7;
+	list-style-type: none;
+	text-align: center;
+	padding: 15px;
+}
+
+#mainNavItem {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#mainNavItem:link, #mainNavItem:visited {
+	text-decoration: none;
+	color: #562b42;
+}
+
+#mainNavItem:hover, #mainNavItem:active {
+	color: #b094d7;
+}
+
+
+.backgroundContainer {
+	background: linear-gradient(#eeeeee, #b094d7);
+}
+
+.introContainer {
+	margin: auto;
+	width: 600px;
+	padding: 40px;
+	padding-bottom: 130px;
+}
+
+#projectGrid {
+	margin-left: 150px;
+	margin-right: 150px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+
+.projectImg {
+	flex: auto;
+	margin: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+		0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+    width: 100%;
+    padding: 4px;
+    background-color: #eeeeee;
+    color: #562b42;
+    font-family: Libre Baskerville, serif;
+    font-size: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#footerIcon {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 4px;
+	font-size: 17px;
+}
+
+#footerIcon:link, #footerIcon:visited {
+	text-decoration: none;
+	color: #562b42;
+}
+
+#footerIcon:hover, #footerIcon:active {
+	color: #b094d7;
+	font-weight: bold;
 }
