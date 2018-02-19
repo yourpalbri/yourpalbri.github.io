@@ -24,11 +24,12 @@ h2 {
 }
 
 h3 {
-	font-family: Libre Baskerville, serif;
+	font-family: Rubik, sans-serif;
 	font-size: 25px;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	margin-top: 60px;
 	margin-bottom: 20px;
+	color: #562b42;
 }
 
 img {
