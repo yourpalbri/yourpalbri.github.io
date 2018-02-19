@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+
+	<meta name="description" content="bri's personal website" />
+	<meta name="author" content="bri hudock" />
+
+	<title>blob</title>
+
+	<link rel="stylesheet" href="style.css"></link>
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+
+<body>
+	<div class="backgroundContainer">
+		<a id="projectNav" href="index.html">
+			<i class="fa fa-arrow-circle-left"></i> projects
+		</a>
+
+		<div class="introContainer">
+			<h1>
+				blob
+			</h1>
+
+			<h2>
+				<p>I have a lot of experience working with children, having been employed at my university's research preschool and multiple camps over the summers, as well as babysitting my six younger siblings.  In that time, I have had the honor of reading a lot of mediocre children's books.</p>
+				<p>So I decided to create my own from scratch.</p>
+			</h2>
+		</div>
+
+			<div class="processImgContainer">
+				<img src="blobProcess1.png" class="processImg">
+			</div>
+	</div>
+	<div class="processContainer">
+		<h3>Prompt</h3>
+		<h2>
+			<p>I was given an assignment.</p>
+		</h2>
+
+		<h3>Process</h3>
+		<h2>
+			<p>I did this then I did that.</p>
+		</h2>
+
+		<h3>Final Product</h3>
+		<h2>
+			<p>This is what I made.</p>
+		</h2>
+	</div>
+
+	<a id="nextProjectNav" href="#cm">next project <i class="fa fa-arrow-circle-right"></i></a>
+
+	<div class="stickyFooter">
+			<a id="footerIcon" href="mailto:brianna.hudock@gmail.com"><i class="fa fa-envelope-square"></i></a>
+			<a id="footerIcon" href="https://www.linkedin.com/in/brianna-hudock-876726b6/"><i class="fab fa-linkedin"></i></a>
+			<a id="footerIcon" href="https://medium.com/@yourpalbri"><i class="fab fa-medium"></i></a>
+	</div>
+</body>
