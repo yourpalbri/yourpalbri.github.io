@@ -21,6 +21,7 @@ h1 {
 
 h2 {
 	font-family: Libre Baskerville, serif;
+	font-size: 23px;
 }
 
 h3 {
@@ -30,6 +31,11 @@ h3 {
 	margin-top: 60px;
 	margin-bottom: 20px;
 	color: #562b42;
+}
+
+h4 {
+	font-family: Libre Baskerville, serif;
+	font-size: 20px;
 }
 
 img {
@@ -47,17 +53,17 @@ img {
 	padding: 15px;
 }
 
-#mainNavItem {
+.mainNavItem {
 	margin-left: 5px;
 	margin-right: 5px;
 }
 
-#mainNavItem:link, #mainNavItem:visited {
+.mainNavItem:link, .mainNavItem:visited {
 	text-decoration: none;
 	color: #562b42;
 }
 
-#mainNavItem:hover, #mainNavItem:active {
+.mainNavItem:hover, .mainNavItem:active {
 	color: #b094d7;
 }
 
@@ -115,6 +121,8 @@ img {
 	font-family: Libre Baskerville;
 	font-style: italic;
 	font-size: 12px;
+	margin: 20px;
+	line-height: 1.6;
 }
 
 .projectLink:hover { 
@@ -127,6 +135,56 @@ img {
 
 .projectLink:hover .textOverlay { 
 	opacity: 1;
+}
+
+
+
+
+
+.aboutBackgroundContainer {
+	background: linear-gradient(#eeeeee, #b094d7);
+	padding-bottom: 50px;
+}
+
+.aboutIntroContainer {
+	margin: auto;
+	width: 600px;
+	padding: 40px;
+	display: block;
+}
+
+.aboutImgContainer {
+	margin-left: 400px;
+	margin-right: 400px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+
+.aboutImg {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+		0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    backface-visibility: hidden;
+    background-color: #562b42;
+    position: relative;
+}
+
+.aboutImg:hover { 
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 
+		0 12px 40px 0 rgba(0, 0, 0, 0.19);; 
+}
+
+.linkedText:link, .linkedText:visited {
+	text-decoration: none;
+	color: #b094d7;
+	font-family: Rubik, sans-serif;
+}
+
+.linkedText:hover, .linkedText:active {
+	color: #562b42;
+	font-style: bold;
+	font-family: Rubik, sans-serif;
 }
 
 
@@ -174,6 +232,14 @@ img {
 		0 12px 40px 0 rgba(0, 0, 0, 0.19);; 
 }
 
+.caption {
+	margin-top: 20px;
+	font-family: Libre Baskerville, serif;
+	font-style: italic;
+	color: #562b42;
+	font-size: 15px;
+}
+
 .processContainer {
 	margin: auto;
 	width: 600px;
@@ -196,11 +262,13 @@ img {
 
 #nextProjectNav:link, #nextProjectNav:visited {
 	text-decoration: none;
-	color: #562b42;
+	color: #b094d7;
 }
 
 #nextProjectNav:hover, #nextProjectNav:active {
-	color: #b094d7;
+	color: #562b42;
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: black;
 }
 
 

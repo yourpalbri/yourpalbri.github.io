@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+
+	<meta name="description" content="bri's personal website" />
+	<meta name="author" content="bri hudock" />
+
+	<title>bri hudock</title>
+
+	<link rel="stylesheet" href="style.css"></link>
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+
+<body>
+	<div class="aboutBackgroundContainer">
+		<ul class="mainNav">
+			<a class="mainNavItem" href="index.html">projects</a>
+			<a class="mainNavItem">about</a>
+			<a class="mainNavItem" href="briannahudock.pdf" target="_blank">resume</a>
+		</ul>
+
+		<div class="aboutIntroContainer">
+			<h1>
+				about me
+			</h1>
+		</div>
+
+		<div class="aboutImgContainer">
+			<img src="me.jpg" class="aboutImg">
+			<div class="caption">Here you can see me being a big ole goon.</div>
+		</div>
+	</div>
+
+	<div class="aboutTextContainer">
+		<div class="aboutIntroContainer">
+			<h2>
+				<p>I am a student at Carnegie Mellon University and I spent a lot of my time being a huge nerd.</p>
+				<p>Here is more content. Even more content. Can't you see all the content here wowee.</p>
+				<br />
+			</h2>
+		</div>
+	</div>
+
+	<div class="stickyFooter">
+			<a id="footerIcon" href="mailto:brianna.hudock@gmail.com"><i class="fa fa-envelope-square"></i></a>
+			<a id="footerIcon" href="https://www.linkedin.com/in/brianna-hudock-876726b6/"><i class="fab fa-linkedin"></i></a>
+			<a id="footerIcon" href="https://medium.com/@yourpalbri"><i class="fab fa-medium"></i></a>
+	</div>
+
+
+</body>

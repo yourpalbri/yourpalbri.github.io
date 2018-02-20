@@ -28,30 +28,39 @@
 			</h1>
 
 			<h2>
-				<p>I have a lot of experience working with children, having been employed at my university's research preschool and multiple camps over the summers, as well as babysitting my six younger siblings.  In that time, I have had the honor of reading a lot of mediocre children's books.</p>
-				<p>So I decided to create my own from scratch.</p>
+				<p>I have a lot of experience reading to children. I was employed as a classroom helper by Carnegie Mellon's <a class="linkedText" href="http://www.psy.cmu.edu/cs/" target="_blank">research preschool</a>, worked as a camp counselor for five summers, and still babysit the youngest of my six younger siblings.</p>
+				<p>Bottom line: I have been exposed to a lot of mediocre children's picture books. So I decided to create my own from scratch.</p>
 			</h2>
 		</div>
 
 			<div class="processImgContainer">
 				<img src="blobProcess1.png" class="processImg">
+				<div class="caption">The front cover of my book "Blob."</div>
 			</div>
 	</div>
 	<div class="processContainer">
 		<h3>Prompt</h3>
-		<h2>
-			<p>I was given an assignment.</p>
-		</h2>
+		<h4>
+			<p>The aim of this project was to design a book with self-made illustrations. The book could have any theme or purpose, ranging from illustrated poetry to a cook book. I am the oldest of seven kids and have spent a lot of time with children as a part of my child psychology curriculum as well as working at the Children’s school. Because of this, I have had a lot of experience reading Children’s picture books. I was really excited about the possibility to write one of my own.</p>
+			<p>I knew writing and illustrating my own story would take a lot of work, so I headed to the library for some inspiration. I read a lot of stories and ended up taking a few home. The ones I found most inspirational were written by greats like Jon Klassen, Shel Silverstein, and Øyvind-Torseter.</p>
+		</h4>
 
 		<h3>Process</h3>
-		<h2>
-			<p>I did this then I did that.</p>
-		</h2>
+		<h4>
+			<p>This project was split into three major components. One part was writing the story itself. How would the characters talk, what were their names, what was the plot, how did it end, how do I fit it in less than 20 pages? My initial ideation can be found amongst my sketches where I brainstormed big plot ideas as well as wrote out some example pages.</p>
+			<p>The second component was the illustrations, such as what the characters looked like and any background or setting elements. In my sketches, I played around with the idea of BLOB being many different sizes and using color to differentiate how BLOB could become many different sizes while the shapes with fixed sizes were more perfectly colored in. I also played around with using shadows to show the shapes in more of a physical world which I ended up scrapping as I decided the shapes were in a two dimensional fantasy plane of existence.</p>
+		</h4>
+
+		<h4>
+			<p>The third element of the project and the one most relevant to the project requirements was overall composition of the book and its spreads/pages. In initial sketches I considered multiple different covers that showed BLOB in her many forms or surrounded by all the shapes and objects she encounters in her journey. I also started to play around with how the text on each page would relate to the illustrations. Here I realized I was going to have to fit a lot of text on some pages so I wanted to have some sort of grid system to allow me to chunk the text into readable, bite-sized pieces. I also realized that I wanted to be able to be playful with where I put my text which similarly supported a grid system. As I learned in earlier projects, playful text placement still requires guidelines so it doesn’t feel sloppy.</p>
+		</h4>
+
 
 		<h3>Final Product</h3>
-		<h2>
-			<p>This is what I made.</p>
-		</h2>
+		<h4>
+			<p>I got an A+ on the project as well as overwhelmingly positive comments at the final crit. People enjoyed the story, the typefaces and the illustrations and they seemed to appreciate the rhyming as well as the theme of the story itself. I made the story ultimately for me, feeling like a blob in a world of perfect shapes after changing my course of study during my senior year. My favorite part of this project was hearing from so many people that they related to blob too and felt like the story spoke to people of all types and ages.</p>
+			<p>Read more about the process of creating Blob <a class="linkedText" href="https://medium.com/communication-design-fundamentals-fall-2017/process-documentation-blob-d26fc4517f" target="_blank">here.</a></p>
+		</h4>
 	</div>
 
 	<a id="nextProjectNav" href="#cm">next project <i class="fa fa-arrow-circle-right"></i></a>
