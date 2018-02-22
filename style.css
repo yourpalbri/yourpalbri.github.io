@@ -39,10 +39,28 @@ h4 {
 	font-size: 20px;
 }
 
+.emphasis {
+	font-weight: bold;
+	font-style: italic;
+	color: #472c7a;
+}
+
 img {
 	width: 100%;
 	height: 100%;
 }
+
+.caption {
+	margin-top: 15px;
+	font-family: Libre Baskerville, serif;
+	text-transform: lowercase;
+	color: #562b42;
+	font-size: 13px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
 
 
 .mainNav {
@@ -72,6 +90,7 @@ img {
 
 .backgroundContainer {
 	background: linear-gradient(#eeeeee, #b094d7);
+	padding-bottom: 20px;
 }
 
 .introContainer {
@@ -157,7 +176,6 @@ img {
 .aboutImgContainer {
 	margin-left: 400px;
 	margin-right: 400px;
-	padding-bottom: 20px;
 	display: flex;
 	justify-content: space-around;
 	flex-flow: row wrap;
@@ -176,14 +194,13 @@ img {
 
 .linkedText:link, .linkedText:visited {
 	text-decoration: none;
-	color: #b094d7;
-	font-family: Rubik, sans-serif;
+	color: #472c7a;
+	font-weight: bold;
 }
 
 .linkedText:hover, .linkedText:active {
 	color: #562b42;
-	font-style: bold;
-	font-family: Rubik, sans-serif;
+	font-weight: bold;
 }
 
 
@@ -211,8 +228,6 @@ img {
 .processImgContainer {
 	margin-left: 400px;
 	margin-right: 400px;
-	padding-top: 10px;
-	padding-bottom: 50px;
 	display: flex;
 	justify-content: space-around;
 	flex-flow: row wrap;
@@ -224,17 +239,29 @@ img {
     backface-visibility: hidden;
     background-color: #562b42;
     position: relative;
+    max-width: 400px;
+    margin: 10px;
+}
+
+#processImgGrid {
+	margin-left: 200px;
+	margin-right: 200px;
+	display: flex;
+	justify-content: center;
+    flex-wrap: nowrap;
+
+}
+
+#bigProcessImgGrid {
+	margin-left: 200px;
+	margin-right: 200px;
+	display: flex;
+	justify-content: center;
+    flex-wrap: wrap;
+
 }
 
 .processImg:hover { 
-}
-
-.caption {
-	margin-top: 20px;
-	font-family: Libre Baskerville, serif;
-	font-style: italic;
-	color: #562b42;
-	font-size: 15px;
 }
 
 .processContainer {
