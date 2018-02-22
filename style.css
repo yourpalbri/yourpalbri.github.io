@@ -1,3 +1,198 @@
+@media screen and (max-width: 700px) {
+	h1 {
+		font-size:20px;
+	}
+	h2 {
+		font-size: 12px;
+	}
+	h3 {
+		font-size: 13px;
+		margin-top: 12px;
+		margin-bottom: 5px;
+	}
+	h4 {
+		font-size: 10px;
+	}
+
+	.caption {
+		margin-top: 20px;
+		font-size: 7px;
+		margin-bottom: 20px;
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+
+	.introContainer {
+		width: 250px;
+		padding: 10px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	#projectGrid {
+		margin-left: 10px;
+		margin-right: 10px;
+		padding-top: 50px;
+	}
+
+	.aboutIntroContainer {
+		width: 250px;
+		padding: 10px;
+	}
+
+	.aboutImgContainer {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	.aboutBackgroundContainer {
+		padding-bottom: 10px;
+	}
+
+	#projectNav {
+		margin: auto;
+		margin-top: 25px;
+		width: 300px;
+		padding-top: 0;
+		display: block;
+		text-align: center;
+	}
+
+	.processImgContainer {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.processImg {
+	    max-width: 250px;
+	    margin: 10px;
+	}
+
+	.processContainer {
+		width: 250px;
+		padding: 20px;
+	}
+
+	#processImgGrid {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	#bigProcessImgGrid {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	#nextProjectNav {
+		width: 250px;
+	}
+
+}
+
+@media screen and (min-width: 701px) {
+	h1 {
+		font-size:55px;
+	}
+	h2 {
+		font-size: 23px;
+	}
+	h3 {
+	font-size: 25px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	}
+	h4 {
+		font-size: 20px;
+	}
+
+	.caption {
+		margin-top: 15px;
+		font-size: 13px;
+		margin-bottom: 50px;
+	}
+
+	.introContainer {
+		width: 600px;
+		padding: 20px;
+	}
+
+	#projectGrid {
+		margin-left: 150px;
+		margin-right: 150px;
+		padding-top: 80px;
+	}
+
+	.aboutIntroContainer {
+		width: 600px;
+		padding: 20px;
+	}
+
+	.aboutImgContainer {
+		margin-left: 400px;
+		margin-right: 400px;
+	}
+
+	.aboutBackgroundContainer {
+		padding-bottom: 50px;
+	}
+
+	#projectNav {
+		margin: 40px;
+		position: fixed;
+		left: 0;
+		top: 0;
+	}
+
+	.processImgContainer {
+		margin-left: 400px;
+		margin-right: 400px;
+	}
+
+	.processImg {
+	    max-width: 400px;
+	    margin: 10px;
+	}
+
+	.processContainer {
+		width: 600px;
+		padding: 40px;
+	}
+
+	#processImgGrid {
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+
+	#bigProcessImgGrid {
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+
+	#nextProjectNav {
+		width: 600px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @font-face { font-family: Rubik; src: url('Rubik-Medium.ttf'); } 
 
 ::selection {
@@ -14,29 +209,21 @@ body {
 
 h1 {
 	font-family: Rubik, sans-serif;
-	font-size: 55px;
 	color: #562b42;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
 }
 
 h2 {
 	font-family: Libre Baskerville, serif;
-	font-size: 23px;
 }
 
 h3 {
 	font-family: Rubik, sans-serif;
-	font-size: 25px;
 	text-transform: lowercase;
-	margin-top: 60px;
-	margin-bottom: 20px;
 	color: #562b42;
 }
 
 h4 {
 	font-family: Libre Baskerville, serif;
-	font-size: 20px;
 }
 
 .emphasis {
@@ -51,14 +238,13 @@ img {
 }
 
 .caption {
-	margin-top: 15px;
 	font-family: Libre Baskerville, serif;
 	text-transform: lowercase;
 	color: #562b42;
-	font-size: 13px;
 	text-align: center;
-	margin-bottom: 50px;
 }
+
+
 
 
 
@@ -95,8 +281,6 @@ img {
 
 .introContainer {
 	margin: auto;
-	width: 600px;
-	padding: 20px;
 	display: block;
 }
 
@@ -104,9 +288,6 @@ img {
 
 
 #projectGrid {
-	margin-left: 150px;
-	margin-right: 150px;
-	padding-top: 80px;
 	display: flex;
 	justify-content: space-around;
 	flex-flow: row wrap;
@@ -163,19 +344,14 @@ img {
 
 .aboutBackgroundContainer {
 	background: linear-gradient(#eeeeee, #b094d7);
-	padding-bottom: 50px;
 }
 
 .aboutIntroContainer {
 	margin: auto;
-	width: 600px;
-	padding: 20px;
 	display: block;
 }
 
 .aboutImgContainer {
-	margin-left: 400px;
-	margin-right: 400px;
 	display: flex;
 	justify-content: space-around;
 	flex-flow: row wrap;
@@ -189,8 +365,6 @@ img {
     position: relative;
 }
 
-.aboutImg:hover { 
-}
 
 .linkedText:link, .linkedText:visited {
 	text-decoration: none;
@@ -210,10 +384,6 @@ img {
 	font-family: Rubik;
 	font-size: 18px;
 	color: #b094d7;
-	margin: 40px;
-	position: fixed;
-	left: 0;
-	top: 0;
 }
 
 #projectNav:link, #projectNav:visited {
@@ -226,8 +396,6 @@ img {
 }
 
 .processImgContainer {
-	margin-left: 400px;
-	margin-right: 400px;
 	display: flex;
 	justify-content: space-around;
 	flex-flow: row wrap;
@@ -239,13 +407,16 @@ img {
     backface-visibility: hidden;
     background-color: #562b42;
     position: relative;
-    max-width: 400px;
     margin: 10px;
 }
 
+.processContainer {
+	margin: auto;
+	padding-top: 0;
+	display: block;
+}
+
 #processImgGrid {
-	margin-left: 200px;
-	margin-right: 200px;
 	display: flex;
 	justify-content: center;
     flex-wrap: nowrap;
@@ -253,32 +424,18 @@ img {
 }
 
 #bigProcessImgGrid {
-	margin-left: 200px;
-	margin-right: 200px;
 	display: flex;
 	justify-content: center;
     flex-wrap: wrap;
-
-}
-
-.processImg:hover { 
-}
-
-.processContainer {
-	margin: auto;
-	width: 600px;
-	padding: 40px;
-	padding-top: 0;
-	display: block;
 }
 
 #nextProjectNav {
 	font-family: Rubik;
 	font-size: 18px;
 	color: #b094d7;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 80px;
-	width: 600px;
 	padding-top: 0;
 	display: block;
 	text-align: center;
@@ -291,8 +448,6 @@ img {
 
 #nextProjectNav:hover, #nextProjectNav:active {
 	color: #562b42;
-	-webkit-text-stroke-width: 1px;
-  	-webkit-text-stroke-color: black;
 }
 
 
