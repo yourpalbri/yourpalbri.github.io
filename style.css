@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 599px) {
 	h1 {
 		font-size:20px;
 	}
@@ -15,7 +15,7 @@
 	}
 
 	.caption {
-		margin-top: 20px;
+		margin-top: 10px;
 		font-size: 7px;
 		margin-bottom: 20px;
 		margin-left: 100px;
@@ -41,8 +41,13 @@
 	}
 
 	.aboutImgContainer {
-		margin-left: 50px;
-		margin-right: 50px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.aboutImg {
+	    max-width: 250px;
+	    margin: 10px;
 	}
 
 	.aboutBackgroundContainer {
@@ -71,6 +76,7 @@
 	.processContainer {
 		width: 250px;
 		padding: 20px;
+		margin-top: 50px;
 	}
 
 	#processImgGrid {
@@ -89,7 +95,106 @@
 
 }
 
-@media screen and (min-width: 701px) {
+
+@media screen and (min-width:600px) and (max-width: 964px) {
+	h1 {
+		font-size:40px;
+	}
+	h2 {
+		font-size: 15px;
+	}
+	h3 {
+		font-size: 17px;
+		margin-top: 12px;
+		margin-bottom: 5px;
+	}
+	h4 {
+		font-size: 13px;
+	}
+
+	.caption {
+		margin-top: 10px;
+		font-size: 10px;
+		margin-bottom: 20px;
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+
+	.introContainer {
+		width: 400px;
+		padding: 10px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	#projectGrid {
+		margin-left: 10px;
+		margin-right: 10px;
+		padding-top: 50px;
+	}
+
+	.aboutIntroContainer {
+		width: 400px;
+		padding: 10px;
+	}
+
+	.aboutImgContainer {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.aboutImg {
+	    max-width: 250px;
+	    margin: 10px;
+	}
+
+	.aboutBackgroundContainer {
+		padding-bottom: 10px;
+	}
+
+	#projectNav {
+		margin: auto;
+		margin-top: 25px;
+		width: 400px;
+		padding-top: 0;
+		display: block;
+		text-align: center;
+	}
+
+	.processImgContainer {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.processImg {
+	    max-width: 250px;
+	    margin: 10px;
+	}
+
+	.processContainer {
+		width: 400px;
+		padding: 20px;
+		margin-top: 50px;
+	}
+
+	#processImgGrid {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	#bigProcessImgGrid {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	#nextProjectNav {
+		width: 400px;
+	}
+
+}
+
+
+@media screen and (min-width: 965px) {
 	h1 {
 		font-size:55px;
 	}
@@ -128,8 +233,13 @@
 	}
 
 	.aboutImgContainer {
-		margin-left: 400px;
-		margin-right: 400px;
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+
+	.aboutImg {
+	    max-width: 400px;
+	    margin: 10px;
 	}
 
 	.aboutBackgroundContainer {
@@ -144,8 +254,8 @@
 	}
 
 	.processImgContainer {
-		margin-left: 400px;
-		margin-right: 400px;
+		margin-left: 200px;
+		margin-right: 200px;
 	}
 
 	.processImg {
@@ -156,6 +266,7 @@
 	.processContainer {
 		width: 600px;
 		padding: 40px;
+		margin-top: 80px;
 	}
 
 	#processImgGrid {
@@ -353,7 +464,7 @@ img {
 
 .aboutImgContainer {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	flex-flow: row wrap;
 }
 
@@ -363,6 +474,7 @@ img {
     backface-visibility: hidden;
     background-color: #562b42;
     position: relative;
+    margin: 10px;
 }
 
 
@@ -397,7 +509,7 @@ img {
 
 .processImgContainer {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	flex-flow: row wrap;
 }
 
@@ -411,8 +523,9 @@ img {
 }
 
 .processContainer {
-	margin: auto;
 	padding-top: 0;
+	margin-left: auto;
+	margin-right: auto;
 	display: block;
 }
 
@@ -420,7 +533,7 @@ img {
 	display: flex;
 	justify-content: center;
     flex-wrap: nowrap;
-
+    margin: 0;
 }
 
 #bigProcessImgGrid {
