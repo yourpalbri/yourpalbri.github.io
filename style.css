@@ -96,7 +96,7 @@
 }
 
 
-@media screen and (min-width:600px) and (max-width: 964px) {
+@media screen and (min-width:600px) and (max-width: 922px) {
 	h1 {
 		font-size:40px;
 	}
@@ -194,7 +194,7 @@
 }
 
 
-@media screen and (min-width: 965px) {
+@media screen and (min-width: 923px) {
 	h1 {
 		font-size:55px;
 	}
