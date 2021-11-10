@@ -402,6 +402,7 @@ img {
 	display: flex;
 	justify-content: space-around;
 	flex-flow: row wrap;
+	flex-basis: 0;
 }
 
 .projectLink {
