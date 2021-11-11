@@ -1,4 +1,4 @@
-@media screen and (max-width: 641px) {
+@media screen and (max-width: 619px) {
 	h1 {
 		font-size:20px;
 	}
@@ -101,7 +101,7 @@
 
 }
 
-@media screen and (min-width: 642px) and (max-width:  642px) {
+@media screen and (min-width: 620px) and (max-width:  642px) {
 	h1 {
 		font-size:20px;
 	}
