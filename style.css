@@ -332,8 +332,8 @@
 	}
 
 	#projectGrid {
-		margin-left: 150px;
-		margin-right: 150px;
+		margin-left: 250px;
+		margin-right: 250px;
 		padding-top: 80px;
 	}
 
@@ -522,6 +522,7 @@ img {
     backface-visibility: hidden;
     background-color: #562b42;
     position: relative;
+  border-radius: 20px;
 }
 
 .textOverlay {
