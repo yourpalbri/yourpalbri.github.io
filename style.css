@@ -194,7 +194,7 @@
 }
 
 
-@media screen and (min-width: 923px) {
+@media screen and (min-width: 923px) and (max-width: 1500px){
 	h1 {
 		font-size:55px;
 	}
@@ -286,7 +286,96 @@
 }
 
 
+@media screen and (min-width: 1501px) {
+	h1 {
+		font-size:55px;
+	}
+	h2 {
+		font-size: 23px;
+	}
+	h3 {
+	font-size: 25px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	}
+	h4 {
+		font-size: 20px;
+	}
 
+	.caption {
+		margin-top: 15px;
+		font-size: 13px;
+		margin-bottom: 50px;
+	}
+
+	.introContainer {
+		width: 600px;
+		padding: 20px;
+	}
+
+	#projectGrid {
+		margin-left: 300px;
+		margin-right: 300px;
+		padding-top: 80px;
+	}
+
+	.aboutIntroContainer {
+		width: 600px;
+		padding: 20px;
+	}
+
+	.aboutImgContainer {
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+
+	.aboutImg {
+	    max-width: 400px;
+	    margin: 10px;
+	}
+
+	.aboutBackgroundContainer {
+		padding-bottom: 50px;
+	}
+
+	#projectNav {
+		margin: 40px;
+		position: fixed;
+		left: 0;
+		top: 0;
+	}
+
+	.processImgContainer {
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+
+	.processImg {
+	    max-width: 400px;
+	    margin: 10px;
+	}
+
+	.processContainer {
+		width: 600px;
+		padding: 40px;
+		margin-top: 80px;
+	}
+
+	#processImgGrid {
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+
+	#bigProcessImgGrid {
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+
+	#nextProjectNav {
+		width: 600px;
+	}
+
+}
 
 
 
