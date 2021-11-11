@@ -332,8 +332,8 @@
 	}
 
 	#projectGrid {
-		margin-left: 300px;
-		margin-right: 300px;
+		margin-left: 150px;
+		margin-right: 150px;
 		padding-top: 80px;
 	}
 
@@ -560,7 +560,7 @@ img {
 
 
 .projectImg {
-	border-radius: 15%;
+	border-radius: 20px;
 }
 
 
