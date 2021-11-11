@@ -93,6 +93,12 @@
 		width: 250px;
 	}
 
+	#projectGrid {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	}
+
 }
 
 
@@ -191,6 +197,12 @@
 		width: 400px;
 	}
 
+	#projectGrid {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	}
+
 }
 
 
@@ -283,6 +295,12 @@
 		width: 600px;
 	}
 
+	#projectGrid {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	}
+
 }
 
 
@@ -314,8 +332,8 @@
 	}
 
 	#projectGrid {
-		margin-left: 500px;
-		margin-right: 500px;
+		margin-left: 300px;
+		margin-right: 300px;
 		padding-top: 80px;
 	}
 
@@ -373,6 +391,12 @@
 
 	#nextProjectNav {
 		width: 600px;
+	}
+
+	#projectGrid {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row;
 	}
 
 }
@@ -487,12 +511,7 @@ img {
 
 
 
-#projectGrid {
-	display: flex;
-	justify-content: space-around;
-	flex-flow: row wrap;
-	flex-basis: 0;
-}
+
 
 .projectLink {
 	flex: auto;
